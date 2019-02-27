@@ -1765,10 +1765,11 @@ blockquote{
 	width:100%;
 	float:left;
 	padding:30px;
+	margin: 20px;
 	background:#fff;
 	border-radius:4px;
 }
-.tg-event + .tg-event{margin:20px 0 0;}
+.tg-event + .tg-event{margin-right:20px;}
 .tg-event:hover{
 	-webkit-box-shadow: 0 0 15px 0 rgba(0,0,0,0.10);
 	box-shadow: 0 0 15px 0 rgba(0,0,0,0.10);
@@ -4206,4 +4207,30 @@ body.tg-fixedme .tg-headervtwo:before{display:none;}
 	height:125px;
 	position:absolute;
 	margin:-63px 0 0 -64px;
+}
+
+.lni-phone-handset:before {
+	content: "\e9cc";
+  }
+  
+
+
+#navlinks {
+    transition: 0.3s ease-in-out 0s;
+    border-bottom: 1px solid transparent;
+}
+
+.lni-envelope:before {
+	content: "\e96a";
+  }
+
+  .lni-map-marker:before {
+	content: "\e9b2";
+  }
+  .col-lg-3-col-md-6-col-xs-12{
+   /* padding-right: 20px; */
+   padding-left: 60px;
+}
+.copy {
+	padding-top: 20px;
 }
